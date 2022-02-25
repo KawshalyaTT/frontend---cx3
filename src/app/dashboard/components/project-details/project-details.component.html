@@ -1,0 +1,47 @@
+<ng-container>
+    <div class="project-details-conatiner">
+        <div class="project-details-header">
+            <h1>Project Details</h1>
+        </div>
+        <div class="project-details-content" *ngIf="projectData">
+            <h5>Project Name:<span>{{projectData.projectName}}</span></h5>
+            <h5>Client Name:<span>{{projectData.projectName}}Client</span></h5>
+            <h5>Created:<span>{{projectData.projectCreated}}</span></h5>
+            <button mat-button class="primary-btn" (click)="editProject()">
+                <mat-icon>edit</mat-icon> Edit Project
+            </button>
+            <button mat-button class="primary-btn" (click)="addNewTarget()">
+                <mat-icon>track_changes</mat-icon> Add Targets
+            </button>
+        </div>
+        <div class="no-content" *ngIf="!projectData">
+            No Project Data available
+        </div>
+    </div>
+    <mat-divider></mat-divider>
+    <div class="target-container">
+        <div class="target-header">
+            <h1>Target Details</h1>
+        </div>
+        <div class="target-content" *ngIf="projectData.targetDetails">
+            <div *ngFor="let target of projectData.targetDetails">
+                <mat-card>
+                    <mat-card-title>
+                        target.targetName
+                    </mat-card-title>
+                    <mat-card-actions>
+                        <button mat-button class="primary-btn" (click)="uploadExcel(target)">
+                            Upload Data<mat-icon>cloud_upload</mat-icon> 
+                        </button>
+                        <button mat-button class="primary-btn" (click)="editTarget(target)">
+                            Edit<mat-icon>edit</mat-icon> 
+                        </button>
+                    </mat-card-actions>
+                </mat-card>
+            </div>
+        </div>
+        <div class="no-content" *ngIf="!projectData.targetDetails">
+            No Targets found
+        </div>
+    </div>
+</ng-container>

@@ -1,0 +1,15 @@
+<form [formGroup]="targetFormGroup">
+    <h1>Create New Target</h1>
+    <app-custom-form [customFormGroup]="targetFormGroup" [customFormElements]="targetFormCtrl" [editableForm]='editableForm'
+        [formData]="targetData">
+    </app-custom-form>
+    <button mat-button class="primary-btn" [disabled]="targetFormGroup.invalid" (click)="createNewTarget()">Create
+        Target</button>
+</form>
+<!-- <pre>Form value: {{targetFormGroup?.value|json}}</pre> -->
+
+<!-- 
+<form [formGroup]="form">
+    <app-custom-form [form]="form"></app-custom-form>
+    <pre>{{form.value | json}}</pre>
+  </form> -->

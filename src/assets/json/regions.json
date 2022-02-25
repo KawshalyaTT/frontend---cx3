@@ -1,0 +1,201 @@
+{
+    "data": [
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "aac1a645-d5a0-4a86-a0c3-e0e9addceb73",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "19d7231f-0772-4129-be0d-181be6442c1e",
+        "name": "Canada",
+        "description": "Canada region",
+        "key": "CND"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "57648b7a-a1f0-404d-84d1-86c10671fd6d",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "d0c21ebe-2a68-4a41-993e-6228318ae289",
+        "name": "CESA",
+        "description": "CESA",
+        "key": "CESA"
+      },
+      {
+        "regionOwners": [],
+        "id": "a65ae561-572f-4dfd-9e0c-ea1521ae0e77",
+        "name": "Europe West",
+        "description": "Europe West",
+        "key": "EUW"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "8dc4ae70-c9cb-410c-bea4-39400e0b3256",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "fc3ace3b-971d-4715-99c8-eb776d0f100b",
+        "name": "GSA",
+        "description": "GSA",
+        "key": "GSA"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "14de96d7-6cec-4d47-aa4f-0934e91f1006",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "dd31a11a-6a28-401f-a473-db3f7e4c76ee",
+        "name": "India",
+        "description": "India Region",
+        "key": "IND"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "f6f20933-3c30-4080-98a2-0a14b0df59a4",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "46421f81-6712-4023-9ae5-f4bb7f386927",
+        "name": "Israel",
+        "description": "Israel Region",
+        "key": "ISRL"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "d1b921f2-5a7d-439d-b7ac-51a0f8c330cc",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "ef133c3e-fca2-46a0-907d-8944e306ed66",
+        "name": "Japan",
+        "description": "Japan",
+        "key": "JPN"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "a6b65654-9c8f-48cc-996f-0dc1858317b6",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "dbd24901-3023-453b-8e94-5191cf6e3cf5",
+        "name": "Latin-America North",
+        "description": "Latin-America North",
+        "key": "LA-N"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "3295d80a-2683-49f4-839c-28b2b2b566dd",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "2be2786c-6f34-4c1a-ae55-7dfd790b0e3e",
+        "name": "Latin-America South",
+        "description": "Latin-America South",
+        "key": "LA-S"
+      },
+      {
+        "regionOwners": [],
+        "id": "8acc7ad8-7dc0-47f4-ab0a-abf95da32698",
+        "name": "Nordics",
+        "description": "Nordics",
+        "key": "NS"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "ba27cf51-5200-4e10-8fec-22f8d83ad815",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "a68ab837-eeab-4e19-9c4c-0feddf707fea",
+        "name": "Oceania",
+        "description": "Oceania Region",
+        "key": "OCEANIA"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "dcec7197-49e1-4472-8486-b7429bb16880",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "288351f4-e21c-4ed6-819a-b27d69db80c5",
+        "name": "Singapore",
+        "description": "Singapore region",
+        "key": "SNG"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "c9a8dd6c-47d3-4490-a8e0-27bf78dae6a3",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "c9eb589a-261e-4930-822b-db5c348fc049",
+        "name": "South-Africa",
+        "description": "South-Africa",
+        "key": "SA"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "a8f72fb7-c1f1-49d2-9b72-708e2f4733f6",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "caedcbbd-acfa-473a-a233-704744adeb21",
+        "name": "The Netherlands",
+        "description": "The Netherlands",
+        "key": "NLD"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "42854173-78d8-45b4-8610-cbb010645391",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "78431d05-daf9-4800-839e-de46bcef1332",
+        "name": "UK&I",
+        "description": "UK and Ireland",
+        "key": "UKI"
+      },
+      {
+        "regionOwners": [
+          {
+            "regionOwnerId": "be57ee49-2b6b-4dc2-8fb2-00ce86273eb4",
+            "ownerEmail": "Len.F.Defoggi@parthenon.ey.com",
+            "ownerName": "Len F Defoggi"
+          }
+        ],
+        "id": "cac584ab-4569-425a-ba0c-fff022e37f73",
+        "name": "US",
+        "description": "United States",
+        "key": "USA"
+      }
+    ],
+    "success": true
+  }

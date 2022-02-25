@@ -1,0 +1,38 @@
+@import "../../../../assets/css/custom-css.scss";
+
+.mat-drawer-container {
+  top: $header-height;
+  height: calc(100% - #{$header-height}) !important;
+}
+
+.mat-drawer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0px;
+  background: $menu-bg-color;
+  z-index: 1000;
+  transform: translateX(0%);
+  opacity: 1;
+  box-shadow: 1px 0 11px 8px #00000061;
+  max-width: 17rem;
+}
+
+.mat-drawer-content{
+  padding: 2em;
+}
+.mat-list-item {
+  height: 50px;
+}
+
+.active-link {
+  border-left: 2px solid $branding;
+}
+
+.mat-icon {
+  margin-right: 6px;
+}

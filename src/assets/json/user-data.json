@@ -1,0 +1,17 @@
+{
+  "data": {
+    "givenName": "Kawshalya",
+    "surname": "T T",
+    "title": null,
+    "mail": "Kawshalya.T.T@gds.ey.com",
+    "userPrincipalName": "Kawshalya.T.T@gds.ey.com",
+    "id": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+    "oId": null,
+    "officeLocation": "BLR CORAL / EYGDS / SEZ",
+    "photo": null,
+    "isExistingUser": false,
+    "accountType": "Member",
+    "isSATPractitioner": true
+  },
+  "success": true
+}

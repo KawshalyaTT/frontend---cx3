@@ -1,0 +1,53 @@
+<form [formGroup]="customFormGroup" *ngIf="customFormElements">
+  <ng-container *ngFor="let ctrl of customFormElements">
+    <mat-form-field appearance="fill" *ngIf="ctrl.type==='text'">
+      <mat-label [innerHtml]="ctrl.name"></mat-label>
+      <input matInput type="text" #frmCtrl [formControlName]="ctrl.formControlName" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill" *ngIf="ctrl.type==='textarea'">
+      <mat-label [innerHtml]="ctrl.name"></mat-label>
+      <textarea matInput type="textarea" [formControlName]="ctrl.formControlName" required></textarea>
+    </mat-form-field>
+    <mat-form-field appearance="fill" *ngIf="ctrl.type==='number'">
+      <mat-label [innerHtml]="ctrl.name"></mat-label>
+      <input matInput type="number" [formControlName]="ctrl.formControlName" min="0" required>
+    </mat-form-field>
+    <mat-form-field appearance="fill" *ngIf="ctrl.type==='select'">
+      <mat-label [innerHtml]="ctrl.name"></mat-label>
+      <mat-select matNativeControl [formControlName]="ctrl.formControlName" required>
+        <mat-option *ngFor="let option of ctrl.selectOptions" [value]="option.key">
+          {{option.name}}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field appearance="standard" *ngIf="ctrl.type==='checkbox'">
+      <mat-checkbox [formControlName]="ctrl.formControlName" required>{{ctrl.name}}
+      </mat-checkbox>
+      <input matInput [hidden]="true">
+    </mat-form-field>
+    <mat-form-field appearance="fill" *ngIf="ctrl.type==='autocomplete'">
+      <input matInput aria-label="ctrl.name" [matAutocomplete]="custAuto" [formControl]="stateCtrl">
+      <mat-autocomplete #custAuto="matAutocomplete">
+        <mat-option *ngFor="let state of filteredStates | async" [value]="state.name">
+          <img class="example-option-img" aria-hidden [src]="state.flag" height="25">
+          <span>{{state.name}}</span> |
+          <small>Population: {{state.population}}</small>
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </ng-container>
+</form>
+<!-- <mat-form-field appearance="fill" *ngIf="ctrl.type==='checkbox'">
+</mat-form-field> -->
+<!-- <div
+      *ngIf="form.formGroup.get(ctrl.formControlName).invalid && (form.formGroup.get(ctrl.formControlName).dirty || form.formGroup.get(ctrl.formControlName).touched)">
+      <div *ngIf="form.formGroup.get(ctrl.formControlName).errors?.['required']">
+        {{ctrl.name}} is required.
+      </div>
+      <div *ngIf="form.formGroup.get(ctrl.formControlName).errors?.['minlength']">
+        {{ctrl.name}} is required. must be at least 4 characters long.
+      </div>
+      <div *ngIf="form.formGroup.get(ctrl.formControlName).errors?.['forbiddenName']">
+        {{ctrl.name}} is required. cannot be Bob.
+      </div>
+    </div> -->

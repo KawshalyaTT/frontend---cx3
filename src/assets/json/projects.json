@@ -1,0 +1,2931 @@
+{
+  "data": [
+    {
+      "name": "TestProjectCX3",
+      "paceId": null,
+      "isDraft": false,
+      "clientName": "TestClientCX3",
+      "description": "Test Project",
+      "sectorId": "15025242-bfe3-4ed3-8f88-c18d141fff8a",
+      "sectorName": "Technology",
+      "channelId": null,
+      "clientSizeId": "ca9118ae-a818-424d-a2a2-570b75e9ef5e",
+      "regionId": "dd31a11a-6a28-401f-a473-db3f7e4c76ee",
+      "regionName": "India",
+      "stepProgress": "1",
+      "projectTypeId": "3d95813c-6c79-4409-bbcf-5665b832dabe",
+      "projectStatus": {
+        "id": "86f39537-d4ec-485e-ae8f-070dc17ec1a4",
+        "projectStatusName": "Active"
+      },
+      "bundleClassId": "3d95813c-6c79-4409-bbcf-5665b832dabe",
+      "bundleName": null,
+      "bundleDescription": null,
+      "targetDetails": [
+        {
+          "appClassId": "27ecdc02-1410-482d-97df-20ef2a6e272e",
+          "appClassName": "Operating Model",
+          "appURL": "/page/OPERATING_MODEL_GALLERY/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-OM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "c600c9f2-eb71-4919-b1e9-df1221f2e7b2",
+              "appOwnerEmail": "Praveen.Jani@parthenon.ey.com"
+            }
+          ],
+          "id": "8b2fe71d-331f-45a2-9e0e-75e7711f11f8",
+          "createdOn": 1645082224039,
+          "createdBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "modifiedOn": 1645082284667,
+          "modifiedBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "deleted": null
+        },
+        {
+          "appClassId": "b8a50c24-7c83-4917-b0bc-87a92c49b42d",
+          "appClassName": "Workplan Management",
+          "appURL": "/TestApp",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "key": "WRIKE-PMO",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "62f79eed-f231-40dd-9988-cd76f5f5053d",
+          "createdOn": 1645082284595,
+          "createdBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "modifiedOn": 1645082284667,
+          "modifiedBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "deleted": null
+        }
+      ],
+      "appPlatformDetails": [
+        {
+          "appPlatformClassId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "name": "Capital Edge 4",
+          "description": "Capital Edge 4 for Fin",
+          "siteURL": "https://eycapitaledge-au.ey.com/testclientcx3-testprojectcx3/ce4",
+          "apiUrl": "https://eycapitaledge-au.ey.com/testclientcx3-testprojectcx3-ce4/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1645082980361,
+          "provisioningEndedOn": 1645087372480,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "581d1e18-5883-401f-87a6-90c760455d9c",
+          "createdOn": 1645082224039,
+          "createdBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "modifiedOn": 1645082284667,
+          "modifiedBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "name": "Transaction Periscope",
+          "description": "Transaction Periscope for sales",
+          "siteURL": "https://eycapitaledge-au.ey.com/testclientcx3-testprojectcx3/tp",
+          "apiUrl": "https://eycapitaledge-au.ey.com/testclientcx3-testprojectcx3/tp/api/v1",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1645082980361,
+          "provisioningEndedOn": 1645086339031,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "1bc448e8-5fed-465c-9c63-473b9b7e59e5",
+          "createdOn": 1645082224039,
+          "createdBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "modifiedOn": 1645082284667,
+          "modifiedBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "name": "Wrike",
+          "description": "Wrike for Prj mgmt",
+          "siteURL": "https://login.wrike.com/saml/login/account/3473705?idp=https://sts.windows.net/5b973f99-77df-4beb-b27d-aa0c70b8482c/",
+          "apiUrl": "https://app-eu.wrike.com/api/v4/",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1645082286328,
+          "provisioningEndedOn": 1645082318603,
+          "externalIds": [
+            {
+              "appPlatformClassKey": "WRIKE",
+              "id": "IEADKAJJI4ZHBXDE"
+            }
+          ],
+          "isEmailEnabled": null,
+          "id": "8cb950ae-0e6a-4872-8d90-df3a68d1c34e",
+          "createdOn": 1645082284595,
+          "createdBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "modifiedOn": 1645082284667,
+          "modifiedBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+          "deleted": null
+        }
+      ],
+      "demoURL": null,
+      "closeDate": null,
+      "mfaEnabled": true,
+      "projectFriendlyId": "testclientcx3-testprojectcx3",
+      "isConfidential": false,
+      "deprovisionedStatusId": null,
+      "numberOfUsers": 0,
+      "createdByUserName": null,
+      "createdByUserEmail": null,
+      "projectCategoryId": "19f18cde-b213-4aa2-b29a-51484ec4c18b",
+      "projectCategoryName": "Training",
+      "expirationDate": null,
+      "iconId": "1e4a311d-5329-43c0-a949-cf3efa023bd3",
+      "locationDetails": {
+        "locationId": "407c5d9f-67e0-44d9-ac27-9e1205ab01dd",
+        "locationName": "APAC / EMEIA",
+        "locationDescription": "(All apps in Australia EXCEPT Workplan Management App in EMEIA)",
+        "locationBaseURL": "https://eycapitaledge-au.ey.com",
+        "externalIds": [
+          {
+            "appPlatformClassKey": "WRIKE",
+            "id": "IEADKAJJ"
+          }
+        ],
+        "key": "AU"
+      },
+      "isDemoProject": null,
+      "defaultUserRoleId": null,
+      "id": "486adb1e-c6ec-4066-8414-a3ec5d98d768",
+      "createdOn": 1645082185794,
+      "createdBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+      "modifiedOn": 1645082284667,
+      "modifiedBy": "148e1ec8-9bb2-463d-b393-90f1b252156a",
+      "deleted": null
+    },
+    {
+      "name": "App Store",
+      "paceId": null,
+      "isDraft": false,
+      "clientName": "Demo",
+      "description": "This project contains every app from the app store and is intended to be used to demonstrate individual app functionality versus demonstrating a simulated B&I, S&S, etc. project.  #donotdelete\n\n\n* Do not add confidential/client data to this demo project, as it would be visible to other users with access to the demo.",
+      "sectorId": "0f70390e-2252-49cd-959c-142d458170eb",
+      "sectorName": "Real Estate, Hospitality & Construction",
+      "channelId": null,
+      "clientSizeId": "af124a7e-8de3-4319-959d-071bcfc4b549",
+      "regionId": "cac584ab-4569-425a-ba0c-fff022e37f73",
+      "regionName": "US",
+      "stepProgress": "3",
+      "projectTypeId": "f22debbf-9a71-446c-8cec-6e773c2776ec",
+      "projectStatus": {
+        "id": "86f39537-d4ec-485e-ae8f-070dc17ec1a4",
+        "projectStatusName": "Active"
+      },
+      "bundleClassId": "4e05a280-3aac-49bf-8f61-6abe639a9f00",
+      "bundleName": "App Store",
+      "bundleDescription": "This bundle contains every app from the app store ",
+      "targetDetails": [
+        {
+          "appClassId": "b8a50c24-7c83-4917-b0bc-87a92c49b42d",
+          "appClassName": "Project Management",
+          "appURL": "",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "key": "WRIKE-PMO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "559ba23a-4f40-4747-a3c7-9b70cdddf04f",
+              "appOwnerEmail": "Alfred.Urena@parthenon.ey.com"
+            }
+          ],
+          "id": "87b82a32-9bb5-42fa-a506-316de3fac930",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "b86ec1c6-0104-4a4c-814b-39ac05538383",
+          "appClassName": "Divestiture Reporting - CARVEx",
+          "appURL": "/ir",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-DR",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "b0afb737-f8d3-4873-863d-31982d37f91e",
+              "appOwnerEmail": "badrul.alom@ey.com"
+            }
+          ],
+          "id": "18b6fa34-99df-4b8e-bb28-e31d4e252f01",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "991f9fae-8de2-4bf5-a70c-f25df9186b01",
+          "appClassName": "Sales & Margin Variance Analytics",
+          "appURL": "/sales/mva",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-MVA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "f1e72098-24ac-4759-9c34-a42425184405",
+              "appOwnerEmail": "Guillaume.Lepetitpas@ey.com"
+            }
+          ],
+          "id": "c6967437-e4ad-4044-9716-465f48ebe7ae",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "bb9c12a9-bbf4-4c87-a07b-63e9e9a4602c",
+          "appClassName": "Legal Entity Planning - ProjeX",
+          "appURL": "/entities",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-LEP",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "53d53e4f-e76b-45fd-ac19-4d96659aba4a",
+              "appOwnerEmail": "Tracy.Wagner@ey.com"
+            }
+          ],
+          "id": "32ee5bb2-b1fe-45d7-b8f4-6d4c35a64cec",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "a290dac1-9d87-44e8-8a29-70719608ae68",
+          "appClassName": "Custom Analytics",
+          "appURL": "/analytics",
+          "isPublished": true,
+          "appCategoryId": "8f1c1c6f-8d2f-4a50-8d5e-f7e687569b2c",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "f174dccd-c16e-410d-800f-a079b6bfa9e4",
+              "appOwnerEmail": "Aasim.Shaik@ey.com"
+            }
+          ],
+          "id": "a94c70ac-8c63-4c51-bcad-c5cd09315282",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "00a430e1-2ae5-4dc1-8d86-ab6a30b3c667",
+          "appClassName": "Capital Allocation",
+          "appURL": "/capitalPro",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CAS",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "fd658b8c-29b6-4cd8-b647-f55ce55db277",
+              "appOwnerEmail": "Teodor.S.Trenkov@ey.com"
+            }
+          ],
+          "id": "7f60963f-7424-4108-a019-b9feaeb79aa8",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "6b96cb8e-5335-4cf9-a238-238464df2cb6",
+          "appClassName": "Forecasting & Scenario Analysis",
+          "appURL": "/forecasting",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-FSA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "9ffdd780-bb1f-4673-89c1-f911901e6000",
+              "appOwnerEmail": "Fernando.Castro@ey.com"
+            }
+          ],
+          "id": "07fe3978-d950-4ad3-b8f1-ef0730f82f62",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "540afad0-40e5-4496-9043-28fda32c7eb7",
+          "appClassName": "Customer Lifetime Value",
+          "appURL": "/customer/customerLifetimeValue",
+          "isPublished": true,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CLV",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "f7c8c0cc-9488-4f54-aa50-bb1639c8b7e0",
+              "appOwnerEmail": "Erik.Olson@ey.com"
+            }
+          ],
+          "id": "5a178f86-b224-4dab-b687-a4cdccc9287b",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "27ecdc02-1410-482d-97df-20ef2a6e272e",
+          "appClassName": "Operating Model",
+          "appURL": "/page/OPERATING_MODEL_GALLERY/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-OM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "838d18c2-e0a0-44ed-b092-db72da769b95",
+              "appOwnerEmail": "FrancoisXavier.Charpentier@parthenon.ey.com"
+            }
+          ],
+          "id": "7c407b4d-9559-4c03-86f3-37fcf8b9bead",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "418a2dd9-312b-4c6a-acbc-413ec840c3e1",
+          "appClassName": "Transaction Pipeline",
+          "appURL": "/page/MY_PIPELINE/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-TP",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "c0a40f73-8d92-42c5-a91a-1e0510654749",
+              "appOwnerEmail": "Dhairyashil.NShinde@parthenon.ey.com"
+            }
+          ],
+          "id": "0ae49f89-55ce-4c66-8942-21dbd4a0e59d",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "0520d5f0-2110-42c1-b1cd-677394eed77d",
+          "appClassName": "Transaction Data Hub",
+          "appURL": "/dashboard/tdh-analytics",
+          "isPublished": true,
+          "appCategoryId": "8f1c1c6f-8d2f-4a50-8d5e-f7e687569b2c",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-TDH",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "825fd72b-5cf1-4906-8edf-85c42ece8edf",
+              "appOwnerEmail": "Edward.Tse@parthenon.ey.com"
+            }
+          ],
+          "id": "dc0864c8-b4f7-4f60-bea4-e043b4e2a480",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "9388686f-6f36-439e-91ca-a351eeebe96a",
+          "appClassName": "Spend Analytics",
+          "appURL": "/dashboard/default",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SPA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "564d36f8-b569-46c1-b046-0b112e48ee1c",
+              "appOwnerEmail": "Jessica.Xu@parthenon.ey.com"
+            }
+          ],
+          "id": "460836d3-c4c0-44bc-8939-c04ae97fff0a",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "a5fe1ef0-24fd-4c5f-ae97-dadac09964cc",
+          "appClassName": "Site Optimization",
+          "appURL": "/dashboard/loc-baseline-sales",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0b3babab-1374-4981-aed2-197503e5fced",
+              "appOwnerEmail": "Brian.P.Anderson@parthenon.ey.com"
+            }
+          ],
+          "id": "ae679e10-e42f-478f-95b5-d26ea2cd2da3",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "e3492633-7e6f-4f1a-ac51-ddbbca473023",
+          "appClassName": "Sales Reporting and Analysis",
+          "appURL": "/dashboard/trend-platform-metrics",
+          "isPublished": true,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "5e45eba7-42d4-4671-a49b-bbbe3571078b",
+              "appOwnerEmail": "Jessica.Xu@parthenon.ey.com"
+            }
+          ],
+          "id": "40c08092-9504-4277-9222-e5365fec6a0f",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "7acd0664-b622-4aca-9be7-475857f129d7",
+          "appClassName": "Cross-Sell Analytics",
+          "appURL": "/dashboard/cross-sell-opp-summary",
+          "isPublished": true,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CSA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "1a106b95-03a4-486b-b39e-0fca5b3b1707",
+              "appOwnerEmail": "Edward.Tse@parthenon.ey.com"
+            }
+          ],
+          "id": "3583bfa7-306d-4030-b8e7-f052aecd78fc",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "62c8f0fa-7df5-4e0b-8476-8a5a932007da",
+          "appClassName": "CarveIT Asset Dispositioning",
+          "appURL": "/dashboard/contract-dashboard",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CAD",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "07d020cd-a026-4af2-9e8f-368a61872ad8",
+              "appOwnerEmail": "Nikhil.Tambave@ey.com"
+            }
+          ],
+          "id": "38ba584b-b741-4add-a504-4ed182701652",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "1e201f28-3f87-4e89-a119-f378cb74f634",
+          "appClassName": "Cash Collection Accelerator",
+          "appURL": "/dashboard/overview-snapshot",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-WCCA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "d2916dc5-4b06-41c1-b1b8-f4b33e517027",
+              "appOwnerEmail": "Billy.Hou1@parthenon.ey.com"
+            }
+          ],
+          "id": "c0670c87-6580-475a-b265-b05055457ce8",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "75132c23-bd07-4394-a387-bfa6d1564945",
+          "appClassName": "Capital Equipment Analytics",
+          "appURL": "/dashboard/assets-overview",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CEA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "d0011ff7-2171-4c65-bfb3-acf79fc4a589",
+              "appOwnerEmail": "Billy.Hou1@parthenon.ey.com"
+            }
+          ],
+          "id": "239b68e8-b75b-453c-bf7d-28aafb4fc9f9",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "2c13f9fd-17f0-4f52-93cd-93fc040798ab",
+          "appClassName": "Stand-Alone Company Costing",
+          "appURL": "/dashboard/cost-analysis",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SAC",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0a85e9f5-8223-48a1-a33b-b63372f00d66",
+              "appOwnerEmail": "Yinka.Horton@parthenon.ey.com"
+            }
+          ],
+          "id": "a47b09ba-0e93-45fb-b1b5-ca511c8c83dd",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "268efd2d-2051-4e63-a04d-709b4852f33d",
+          "appClassName": "Value Capture",
+          "appURL": "/page/VALUE_CAPTURE_OVERVIEW/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-VC",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "bd065949-f40c-4f43-9fca-535b327370cc",
+              "appOwnerEmail": "Chris.Novak@parthenon.ey.com"
+            }
+          ],
+          "id": "ccba8c6d-30db-425a-bd09-c2693d09ed9a",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "accaac9b-e72a-45f5-a849-db05afd9d9a7",
+          "appClassName": "Behavioural Analytics",
+          "appURL": "/ba",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-BA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "252f837b-1cb2-45c1-b718-403f65931f4e",
+              "appOwnerEmail": "Fernando.Castro@ey.com"
+            }
+          ],
+          "id": "9b651ae4-ddfd-4277-b2ce-f17accc9319e",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "8c08a1c0-b0ef-4891-83f7-94b319c34001",
+          "appClassName": "Real Estate Analytics",
+          "appURL": "/realEstate",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-REA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "1bd333a5-52bb-45bc-bff9-01da5ef545e7",
+              "appOwnerEmail": "Teodor.S.Trenkov@ey.com"
+            }
+          ],
+          "id": "3e19f350-6608-4eda-9226-1793f43ff32d",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "1b7c3b54-b907-40c7-ab02-0600febc9321",
+          "appClassName": "Useful Life Analytics",
+          "appURL": "/usefulLife",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-ULA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "17f39d83-1dca-4dad-adfc-084e8ae36ef9",
+              "appOwnerEmail": "Tracy.Wagner@ey.com"
+            }
+          ],
+          "id": "b8cfa472-aa13-473a-a8b9-25bda6521c3e",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "4bcad821-68d4-4781-a209-dfeda8a705fd",
+          "appClassName": "Acquisition & Investment Performance Analytics",
+          "appURL": "/investmentTracker",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-AIPA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "077a6e80-03f5-4fc9-80c2-75fc978faf85",
+              "appOwnerEmail": "Teodor.S.Trenkov@ey.com"
+            }
+          ],
+          "id": "d316452b-4510-474e-b8c6-8d6f32c94b47",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "ea80b3f6-a98b-4c39-ab7a-39ddf0889188",
+          "appClassName": "Parametric Cost Modeling",
+          "appURL": "/dashboard/category-profile",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SCM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "05ec3fec-48d2-4e46-bcef-2be332000c25",
+              "appOwnerEmail": "Nikhil.Tambave@ey.com"
+            }
+          ],
+          "id": "1fe00b72-4007-457f-901f-4052853ef071",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "b191b2aa-5d9c-4086-9d5c-f019935ef58d",
+          "appClassName": "Credit and bad debt analytics",
+          "appURL": "/customer/creditAnalytics",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CBDA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "4e17dd42-2ed0-4598-b8b4-86060d72f4b3",
+              "appOwnerEmail": "Aasim.Shaik@ey.com"
+            }
+          ],
+          "id": "e9dbf722-e050-4dfb-b526-6a9184340025",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "cb4fad81-0d27-4205-91e9-37f158652fe2",
+          "appClassName": "Data Model Management",
+          "appURL": "/model",
+          "isPublished": true,
+          "appCategoryId": "8f1c1c6f-8d2f-4a50-8d5e-f7e687569b2c",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-DMM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "6246d364-f010-4306-915e-4f88370ca62e",
+              "appOwnerEmail": "Justin.Harrington@ey.com"
+            }
+          ],
+          "id": "54f90da1-eb87-4017-b232-0e928cd125f9",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "4019612d-ee20-4fbf-974e-65d60827be30",
+          "appClassName": "Sales Force Effectiveness Analytics",
+          "appURL": "/dashboard/revenue-margin-baseline",
+          "isPublished": true,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SFE",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "8422d483-841a-487c-8eb3-1584918bb6cd",
+              "appOwnerEmail": "Saumil.Parikh@parthenon.ey.com"
+            }
+          ],
+          "id": "295f21d0-9676-4fd4-b5aa-cf22b3327279",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "afeeda51-28bf-49e5-8230-14f95d35c1a4",
+          "appClassName": "Pricing Analytics",
+          "appURL": "/dashboard/revenueBaseline",
+          "isPublished": true,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-PA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "890661b9-a8ff-408b-9b77-6875835f1cb0",
+              "appOwnerEmail": "Brendan.Happ@parthenon.ey.com"
+            }
+          ],
+          "id": "91d265bb-8050-409a-85ee-b31b246e3f10",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "03355753-8d91-414d-9195-346536a609c3",
+          "appClassName": "Demand Forecast",
+          "appURL": "/dashboard/forecast-summary",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-DF",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "7769a864-ec2e-4725-8263-5a66adb7dfd0",
+              "appOwnerEmail": "Jie.Yang1@parthenon.ey.com"
+            }
+          ],
+          "id": "f847c759-41e3-4ff4-9de1-0020d4f2e4a6",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "8f402a9f-82f8-485f-981f-2493ee6d59ae",
+          "appClassName": "Retail Category Management",
+          "appURL": "/dashboard/cogs-productgroup",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "8f11946b-5824-4f90-97cf-cd02144c6d09",
+              "appOwnerEmail": "Jie.Yang1@parthenon.ey.com"
+            }
+          ],
+          "id": "55007a53-e826-4c23-883f-3dadbca8d4d7",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "e45d9396-4127-4a67-a6fe-47a9972b3fab",
+          "appClassName": "Project Status Reporting",
+          "appURL": "/page/STATUS_REPORTING/",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-PSR",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "9f272ef2-0d5f-4d11-a725-f2682e8f81d7",
+              "appOwnerEmail": "Alfred.Urena@parthenon.ey.com"
+            }
+          ],
+          "id": "cdf5dcf2-14d6-4a78-bec9-cfb08854e75a",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "c0f0a2e5-d987-26ab-8ecb-a3a56e3b24b6",
+          "appClassName": "Process Maturity Assessment",
+          "appURL": "/dashboard/sc-assessment",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-PMA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "31888e5d-97bc-4252-adee-47c93eb28fc9",
+              "appOwnerEmail": "Edward.Tse@parthenon.ey.com"
+            }
+          ],
+          "id": "b8a112f5-b315-4612-b424-2a561323de1b",
+          "createdOn": 1613535485606,
+          "createdBy": "c0801247-de4b-49e6-9094-12d02f9e0a40",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "ed536b91-64b3-47e5-6fb2-a078245e5417",
+          "appClassName": "Logistics Edge",
+          "appURL": "/dashboard/network-sales",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-NO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "afc4d837-6e33-42e0-8dcd-dacb080572a1",
+              "appOwnerEmail": "Edward.Tse@parthenon.ey.com"
+            }
+          ],
+          "id": "52683af5-c051-4960-aba0-0218f7dbe003",
+          "createdOn": 1613535485606,
+          "createdBy": "c0801247-de4b-49e6-9094-12d02f9e0a40",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "f5a20a74-f8f5-487c-8b8e-a582e2c778dc",
+          "appClassName": "Legal Entity",
+          "appURL": "/page/LEGAL_ENTITY_DASHBOARD/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-LE",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "5ddef112-1425-4511-847b-7fca38414caa",
+              "appOwnerEmail": "Katie.Whitlow@parthenon.ey.com"
+            }
+          ],
+          "id": "701e329a-c75a-4bcc-83cb-f12a79ea3432",
+          "createdOn": 1617918651201,
+          "createdBy": "62affc67-a70b-4384-ba1b-6cc2059976ab",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "0a69931c-0432-4a38-bcfc-7c8e569e4af7",
+          "appClassName": "TSA",
+          "appURL": "/tsaHome",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-TSA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "82dc8c99-89d3-4aaf-8c14-a2db33af6d69",
+              "appOwnerEmail": "Katie.Whitlow@parthenon.ey.com"
+            }
+          ],
+          "id": "6bc5ff3c-7da3-4323-a822-c17729f97bbb",
+          "createdOn": 1617918651201,
+          "createdBy": "62affc67-a70b-4384-ba1b-6cc2059976ab",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "4fa91218-0d5b-4027-9d15-8173f1f13957",
+          "appClassName": "Contract Management",
+          "appURL": "/contractDashboard/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-CM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "517a9293-a6bd-4a11-81e7-a3c777e08491",
+              "appOwnerEmail": "Dhairyashil.NShinde@parthenon.ey.com"
+            }
+          ],
+          "id": "6fdeb359-f52d-47c9-b046-7c4e5bcdbca2",
+          "createdOn": 1617918651201,
+          "createdBy": "62affc67-a70b-4384-ba1b-6cc2059976ab",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "75025fce-657c-41ab-a9b3-c5dd0e80dd7b",
+          "appClassName": "IT Synergy Assessment",
+          "appURL": "/dashboard/admin-application-portfolio",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-IS",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "5f2339f0-87d6-4558-b0cc-5aad49ba41f9",
+              "appOwnerEmail": "Jessica.Xu@parthenon.ey.com"
+            }
+          ],
+          "id": "369d7b61-89c5-4635-a267-f83837dd815f",
+          "createdOn": 1618574042610,
+          "createdBy": "13f94559-7290-4803-9f44-d6590ed31a78",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "f0dcb919-10df-433f-96ba-d1dc7319e284",
+          "appClassName": "Measure Management",
+          "appURL": "/page/MEASURE_DASHBOARD/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-MM",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "941b6c3b-673b-4369-86ae-caf7e95be923",
+          "createdOn": 1625174973500,
+          "createdBy": "62affc67-a70b-4384-ba1b-6cc2059976ab",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "3dfa7e57-626e-434e-87dd-e6704df436b6",
+          "appClassName": "Working Capital Analytics",
+          "appURL": "/dashboard/working-capital-overview",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-WCA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "875473cd-6c8b-4920-b24b-8b5abc609271",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            },
+            {
+              "id": "85ff380b-b2b8-45ab-8cf7-eaccb7a4bdd8",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            },
+            {
+              "id": "3337e15e-68fd-4a2a-b094-10be6cd239a8",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            },
+            {
+              "id": "5cdef632-da64-44e8-b9a4-ac1f0fae8ca8",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            },
+            {
+              "id": "34dede2c-b985-4463-8b2c-850d1c141ddf",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            }
+          ],
+          "id": "dc6d54f7-0b58-4a9c-acad-453418345592",
+          "createdOn": 1628097352583,
+          "createdBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "eb1cba86-7bf9-4072-aabb-98b07191fff1",
+          "appClassName": "Multi-Echelon Inventory Optimization",
+          "appURL": "/dashboard/inventory-summary",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-MEIO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "b1f3817a-bdd2-40ca-abed-371a86db84aa",
+              "appOwnerEmail": "Billy.Hou1@parthenon.ey.com"
+            }
+          ],
+          "id": "f7228e24-3785-4faa-8ede-41c63d901780",
+          "createdOn": 1630071966059,
+          "createdBy": "c0801247-de4b-49e6-9094-12d02f9e0a40",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appClassId": "ca522229-9a97-4c0e-91af-b6b489dcacb3",
+          "appClassName": "PMO",
+          "appURL": "/page/PMO_DASHBOARD/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-PMO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "965f63df-8912-444a-b5e5-87631aef39e8",
+              "appOwnerEmail": "Alfred.Urena@parthenon.ey.com"
+            }
+          ],
+          "id": "3e251f63-d619-464e-a95f-abaa9d36cb95",
+          "createdOn": 1632167736584,
+          "createdBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        }
+      ],
+      "appPlatformDetails": [
+        {
+          "appPlatformClassId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "name": "Wrike",
+          "description": "Wrike for Prj mgmt",
+          "siteURL": "https://login.wrike.com/saml/login/account/3473705?idp=https://sts.windows.net/5b973f99-77df-4beb-b27d-aa0c70b8482c/",
+          "apiUrl": "https://app-eu.wrike.com/api/v4/",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1606777700614,
+          "provisioningEndedOn": 1606778000614,
+          "externalIds": [
+            {
+              "appPlatformClassKey": "WRIKE",
+              "id": "IEADKAJJI4R6KI2A"
+            }
+          ],
+          "isEmailEnabled": null,
+          "id": "e4976fdf-5c7c-4342-a978-c60db8a00b4d",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "name": "CFP",
+          "description": "CFP for consumer finance",
+          "siteURL": "https://eycapitaledge.ey.com/demo-appstore/cfp",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-appstore/cfp/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1606778223016,
+          "provisioningEndedOn": 1606780892533,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "5ee2ef36-b514-4549-8b99-4fc36d0a68de",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "name": "Capital Edge 4",
+          "description": "Capital Edge 4 for Fin",
+          "siteURL": "https://eycapitaledge.ey.com/demo-appstore/ce4",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-appstore-ce4/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1606778223016,
+          "provisioningEndedOn": 1606779620176,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "3e8e0278-1b0c-45d3-88c8-a371d84ca73c",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "name": "Transaction Periscope",
+          "description": "Transaction Periscope for sales",
+          "siteURL": "https://eycapitaledge.ey.com/demo-appstore/tp",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-appstore/tp/api/v1",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1606778223016,
+          "provisioningEndedOn": 1606780334194,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "38611944-1534-4752-8748-16e9915242f4",
+          "createdOn": 1606777889142,
+          "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+          "modifiedOn": 1632167736859,
+          "modifiedBy": "c4439aa9-0c33-450b-a17d-f7795f67ef56",
+          "deleted": null
+        }
+      ],
+      "demoURL": null,
+      "closeDate": null,
+      "mfaEnabled": false,
+      "projectFriendlyId": "demo-appstore",
+      "isConfidential": false,
+      "deprovisionedStatusId": null,
+      "numberOfUsers": 0,
+      "createdByUserName": null,
+      "createdByUserEmail": null,
+      "projectCategoryId": "d564d543-fae0-42d3-b04c-83bff66dd7a9",
+      "projectCategoryName": "Standard demo",
+      "expirationDate": null,
+      "iconId": "1e4a311d-5329-43c0-a949-cf3efa023bd3",
+      "locationDetails": {
+        "locationId": "693b2b4f-3806-4648-94f5-557b0c144f99",
+        "locationName": "EMEIA",
+        "locationDescription": "(All apps in the Netherlands)",
+        "locationBaseURL": "https://eycapitaledge.ey.com",
+        "externalIds": [
+          {
+            "appPlatformClassKey": "WRIKE",
+            "id": "IEADKAJJ"
+          }
+        ],
+        "key": "EU"
+      },
+      "isDemoProject": true,
+      "defaultUserRoleId": "d85b4573-6ae8-487f-a87d-34f32d12a556",
+      "id": "568a8190-e97b-480b-8f9b-4e5204f5f6f3",
+      "createdOn": 1606777889142,
+      "createdBy": "3bd48fe6-99dc-4a0f-a9a9-b6e729aae743",
+      "modifiedOn": 1645417646969,
+      "modifiedBy": "6ad4e5de-ee34-4546-9fb8-f6d27d934e48",
+      "deleted": null
+    },
+    {
+      "name": "Sandbox",
+      "paceId": null,
+      "isDraft": false,
+      "clientName": "Sandbox",
+      "description": "This is a sandbox project to be used for training and exploration.  It has every app from the app store deployed, but is not loaded with demo or sample data.\n#donotdelete\n* Do not add confidential/client data to this demo project, as it would be visible to other users with access to the demo.",
+      "sectorId": "0120b52d-5f10-48d3-99a0-93c4dd731982",
+      "sectorName": "Advanced Manufacturing",
+      "channelId": null,
+      "clientSizeId": "71e728e9-4316-4516-8c34-8cdc553ede35",
+      "regionId": "cac584ab-4569-425a-ba0c-fff022e37f73",
+      "regionName": "US",
+      "stepProgress": "3",
+      "projectTypeId": "3d95813c-6c79-4409-bbcf-5665b832dabe",
+      "projectStatus": {
+        "id": "86f39537-d4ec-485e-ae8f-070dc17ec1a4",
+        "projectStatusName": "Active"
+      },
+      "bundleClassId": "4e05a280-3aac-49bf-8f61-6abe639a9f00",
+      "bundleName": "All apps",
+      "bundleDescription": "All apps",
+      "targetDetails": [
+        {
+          "appClassId": "b86ec1c6-0104-4a4c-814b-39ac05538383",
+          "appClassName": "Divestiture Reporting - CARVEx",
+          "appURL": "/ir",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-DR",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "60c70855-8100-4da1-95b5-214e563cc87e",
+              "appOwnerEmail": "badrul.alom@ey.com"
+            }
+          ],
+          "id": "7665ad48-fa43-4481-977f-0e3b5b0519a2",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "69623df5-e928-4232-a515-e53157f43ce6",
+          "appClassName": "Interim Financial Reporting",
+          "appURL": "/ir",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-IR",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "b4dacd43-f01e-4276-a41d-5329b48be6d8",
+              "appOwnerEmail": "badrul.alom@ey.com"
+            }
+          ],
+          "id": "7041fc89-486b-4ac1-a04a-643016d72860",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "991f9fae-8de2-4bf5-a70c-f25df9186b01",
+          "appClassName": "Sales & Margin Variance Analytics",
+          "appURL": "/sales/mva",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-MVA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "e1af4f84-15fb-4aac-90c1-afbc5dfec85b",
+              "appOwnerEmail": "Guillaume.Lepetitpas@ey.com"
+            }
+          ],
+          "id": "e60a816b-9e3f-41d6-97a2-6dfe5e2524bf",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "bb9c12a9-bbf4-4c87-a07b-63e9e9a4602c",
+          "appClassName": "Legal Entity Planning - ProjeX",
+          "appURL": "/entities",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-LEP",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "9417bf11-469d-4c15-a7e6-855a8a882378",
+              "appOwnerEmail": "Tracy.Wagner@ey.com"
+            }
+          ],
+          "id": "108f811b-ee56-4d9b-8194-8ae795d64937",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "a290dac1-9d87-44e8-8a29-70719608ae68",
+          "appClassName": "Custom Analytics",
+          "appURL": "/analytics",
+          "isPublished": true,
+          "appCategoryId": "8f1c1c6f-8d2f-4a50-8d5e-f7e687569b2c",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0c5c8480-b5fa-4149-a6ba-163514b5277e",
+              "appOwnerEmail": "Aasim.Shaik@ey.com"
+            }
+          ],
+          "id": "9e4e8fdc-acc9-4fa5-9eef-98a282fae02c",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "00a430e1-2ae5-4dc1-8d86-ab6a30b3c667",
+          "appClassName": "Capital Allocation",
+          "appURL": "/capitalPro",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CAS",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "aaecfbfb-6ac0-4063-9461-e9d31695febc",
+              "appOwnerEmail": "Teodor.S.Trenkov@ey.com"
+            }
+          ],
+          "id": "11fcfc6d-3592-4114-84ce-0fc05eb7e988",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "6b96cb8e-5335-4cf9-a238-238464df2cb6",
+          "appClassName": "Forecasting & Scenario Analysis",
+          "appURL": "/forecasting",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-FSA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "98781a5d-c117-447d-acc9-74623588d6fd",
+              "appOwnerEmail": "Fernando.Castro@ey.com"
+            }
+          ],
+          "id": "29009601-f1b6-4bd9-8976-2e7bd217726c",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1644033748259,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "540afad0-40e5-4496-9043-28fda32c7eb7",
+          "appClassName": "Customer Lifetime Value",
+          "appURL": "/customer/customerLifetimeValue",
+          "isPublished": true,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CLV",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "bebba5dd-8751-44b9-84da-067db77bdc2c",
+              "appOwnerEmail": "Erik.Olson@ey.com"
+            }
+          ],
+          "id": "2eceb530-1991-4b79-869d-5fad785abcb4",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "27ecdc02-1410-482d-97df-20ef2a6e272e",
+          "appClassName": "Operating Model",
+          "appURL": "/page/OPERATING_MODEL_GALLERY/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-OM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "2102459d-7b3e-44a0-acfb-792d828c7233",
+              "appOwnerEmail": "FrancoisXavier.Charpentier@parthenon.ey.com"
+            }
+          ],
+          "id": "2afebb44-1293-4ff0-8424-9f3d66518104",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "418a2dd9-312b-4c6a-acbc-413ec840c3e1",
+          "appClassName": "Transaction Pipeline",
+          "appURL": "/page/MY_PIPELINE/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-TP",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "6470d818-a9c1-4929-87bf-6c76b40f7d13",
+              "appOwnerEmail": "Dhairyashil.NShinde@parthenon.ey.com"
+            }
+          ],
+          "id": "66a832d6-5923-4d86-8943-e5ab0197dddc",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "0520d5f0-2110-42c1-b1cd-677394eed77d",
+          "appClassName": "Transaction Data Hub",
+          "appURL": "/dashboard/tdh-analytics",
+          "isPublished": false,
+          "appCategoryId": "8f1c1c6f-8d2f-4a50-8d5e-f7e687569b2c",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-TDH",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "a8d676e7-8999-4fcd-a402-c6e814f00437",
+              "appOwnerEmail": "Edward.Tse@parthenon.ey.com"
+            }
+          ],
+          "id": "c14e3ccf-e72d-4192-945b-9893fa449b98",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "9388686f-6f36-439e-91ca-a351eeebe96a",
+          "appClassName": "Spend Analytics",
+          "appURL": "/dashboard/default",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SPA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "4fd21b51-a6a1-4402-aec0-717a0482432d",
+              "appOwnerEmail": "Jessica.Xu@parthenon.ey.com"
+            }
+          ],
+          "id": "a4d050d3-f3da-446d-a220-372fbfa560e7",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "a5fe1ef0-24fd-4c5f-ae97-dadac09964cc",
+          "appClassName": "Site Optimization",
+          "appURL": "/dashboard/loc-baseline-sales",
+          "isPublished": false,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "d3fd32d9-6906-4cc4-93cf-a138a60bb18f",
+              "appOwnerEmail": "Brian.P.Anderson@parthenon.ey.com"
+            }
+          ],
+          "id": "fe42643b-65d1-4dbc-9e5e-f022b3cfff8e",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "e3492633-7e6f-4f1a-ac51-ddbbca473023",
+          "appClassName": "Sales Reporting and Analysis",
+          "appURL": "/dashboard/trend-platform-metrics",
+          "isPublished": false,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "160ff6c1-263a-46ed-8587-702edc1bacdd",
+              "appOwnerEmail": "Jessica.Xu@parthenon.ey.com"
+            }
+          ],
+          "id": "ee3a0ca2-eeae-4b74-920e-26dcf3a8a594",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "7acd0664-b622-4aca-9be7-475857f129d7",
+          "appClassName": "Cross-Sell Analytics",
+          "appURL": "/dashboard/cross-sell-opp-summary",
+          "isPublished": true,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CSA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0814c9c4-86d2-48a3-8560-4ffb0a9fc443",
+              "appOwnerEmail": "Edward.Tse@parthenon.ey.com"
+            }
+          ],
+          "id": "4b21bb64-43f0-4e97-8cec-dd72ab9a717d",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "62c8f0fa-7df5-4e0b-8476-8a5a932007da",
+          "appClassName": "CarveIT Asset Dispositioning",
+          "appURL": "/dashboard/contract-dashboard",
+          "isPublished": false,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CAD",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0da03230-fe4d-409d-bd79-d13cf979ab01",
+              "appOwnerEmail": "Nikhil.Tambave@ey.com"
+            }
+          ],
+          "id": "414508df-d509-4193-a7a1-88c6712d6e8b",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "1e201f28-3f87-4e89-a119-f378cb74f634",
+          "appClassName": "Cash Collection Accelerator",
+          "appURL": "/dashboard/overview-snapshot",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-WCCA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0e7f3f73-453d-4f74-b4b2-7b9beacdc50e",
+              "appOwnerEmail": "Billy.Hou1@parthenon.ey.com"
+            }
+          ],
+          "id": "18fbb23f-051e-4e1b-827b-ed166dd4ba0a",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "75132c23-bd07-4394-a387-bfa6d1564945",
+          "appClassName": "Capital Equipment Analytics",
+          "appURL": "/dashboard/assets-overview",
+          "isPublished": false,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CEA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "c5d46be7-5356-40df-b3fc-7a7c5eef1cc1",
+              "appOwnerEmail": "Billy.Hou1@parthenon.ey.com"
+            }
+          ],
+          "id": "23b13210-5754-4ae3-9c75-6332da1391fc",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "2c13f9fd-17f0-4f52-93cd-93fc040798ab",
+          "appClassName": "Stand-Alone Company Costing",
+          "appURL": "/dashboard/cost-analysis",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SAC",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "544a0381-a576-4011-9de2-88fc484452cb",
+              "appOwnerEmail": "Yinka.Horton@parthenon.ey.com"
+            }
+          ],
+          "id": "9e82071d-19fd-4934-bb56-f3e39f3bcc52",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "268efd2d-2051-4e63-a04d-709b4852f33d",
+          "appClassName": "Value Capture",
+          "appURL": "/page/VALUE_CAPTURE_OVERVIEW/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-VC",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "63a9d2d5-d8d3-441c-bfc2-f3217fc7fed5",
+              "appOwnerEmail": "Chris.Novak@parthenon.ey.com"
+            }
+          ],
+          "id": "108534d1-896f-45a4-960f-279636f791c3",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "accaac9b-e72a-45f5-a849-db05afd9d9a7",
+          "appClassName": "Behavioural Analytics",
+          "appURL": "/ba",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-BA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "64e06890-a39d-4239-98c9-ef301edeca8e",
+              "appOwnerEmail": "Fernando.Castro@ey.com"
+            }
+          ],
+          "id": "bb3998cb-93b2-4322-83b3-2a24d9f0b72d",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "8c08a1c0-b0ef-4891-83f7-94b319c34001",
+          "appClassName": "Real Estate Analytics",
+          "appURL": "/realEstate",
+          "isPublished": false,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-REA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "bd38f746-4880-4aaf-8eae-eb70690f0ac1",
+              "appOwnerEmail": "Teodor.S.Trenkov@ey.com"
+            }
+          ],
+          "id": "f895d10b-bff8-488d-81d7-ccf68e90efcf",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "1b7c3b54-b907-40c7-ab02-0600febc9321",
+          "appClassName": "Useful Life Analytics",
+          "appURL": "/usefulLife",
+          "isPublished": false,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-ULA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0eaafdb2-ebd7-4449-b2c6-38a55a963f58",
+              "appOwnerEmail": "Tracy.Wagner@ey.com"
+            }
+          ],
+          "id": "b35b4f4c-5bbc-4a8c-ab03-ae5121c579e1",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "4bcad821-68d4-4781-a209-dfeda8a705fd",
+          "appClassName": "Acquisition & Investment Performance Analytics",
+          "appURL": "/investmentTracker",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-AIPA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "e33927b6-3345-4cf6-afcf-5182658af16e",
+              "appOwnerEmail": "Teodor.S.Trenkov@ey.com"
+            }
+          ],
+          "id": "bfb9d9b1-ee7b-493c-a509-9e793a30e7f0",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "ea80b3f6-a98b-4c39-ab7a-39ddf0889188",
+          "appClassName": "Parametric Cost Modeling",
+          "appURL": "/dashboard/category-profile",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SCM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "ce7c8be1-1a68-4476-a60b-90c91d962936",
+              "appOwnerEmail": "Nikhil.Tambave@ey.com"
+            }
+          ],
+          "id": "a3a5cdae-e3a8-4278-8113-3f3b5deac56e",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "b191b2aa-5d9c-4086-9d5c-f019935ef58d",
+          "appClassName": "Credit and bad debt analytics",
+          "appURL": "/customer/creditAnalytics",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CBDA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "ec1bb8c4-5bec-4782-a14c-39631e2b2728",
+              "appOwnerEmail": "Aasim.Shaik@ey.com"
+            }
+          ],
+          "id": "7bfebd2e-6648-40a1-824d-da80c94e9678",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "cb4fad81-0d27-4205-91e9-37f158652fe2",
+          "appClassName": "Data Model Management",
+          "appURL": "/model",
+          "isPublished": true,
+          "appCategoryId": "8f1c1c6f-8d2f-4a50-8d5e-f7e687569b2c",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-DMM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "63ae5103-caa3-4f1f-bbea-3db7a88aba17",
+              "appOwnerEmail": "Justin.Harrington@ey.com"
+            }
+          ],
+          "id": "c44575e0-d91d-4e68-9d16-75cd5c7ec829",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "4019612d-ee20-4fbf-974e-65d60827be30",
+          "appClassName": "Sales Force Effectiveness Analytics",
+          "appURL": "/dashboard/revenue-margin-baseline",
+          "isPublished": false,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SFE",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "5d2e9685-04a5-414d-b8fb-fddf0cb6b619",
+              "appOwnerEmail": "Saumil.Parikh@parthenon.ey.com"
+            }
+          ],
+          "id": "0b8fa471-aafc-43d2-8d35-c901b6a0c688",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "afeeda51-28bf-49e5-8230-14f95d35c1a4",
+          "appClassName": "Pricing Analytics",
+          "appURL": "/dashboard/revenueBaseline",
+          "isPublished": false,
+          "appCategoryId": "73dadac7-aee9-4200-9429-0bab1b0ae6e5",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-PA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0021745a-1a64-4513-9220-845c83a7be63",
+              "appOwnerEmail": "Brendan.Happ@parthenon.ey.com"
+            }
+          ],
+          "id": "09e6e08b-4e6c-4c7c-923a-7b618f8532db",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "03355753-8d91-414d-9195-346536a609c3",
+          "appClassName": "Demand Forecast",
+          "appURL": "/dashboard/forecast-summary",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-DF",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "0776423b-7254-4309-a0f1-edb78b138852",
+              "appOwnerEmail": "Jie.Yang1@parthenon.ey.com"
+            }
+          ],
+          "id": "530a4e69-ee7b-4b76-b4c9-05fae5d00fec",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "8f402a9f-82f8-485f-981f-2493ee6d59ae",
+          "appClassName": "Retail Category Management",
+          "appURL": "/dashboard/cogs-productgroup",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "943f6a89-4b07-4919-bf19-d5af903a783a",
+              "appOwnerEmail": "Jie.Yang1@parthenon.ey.com"
+            }
+          ],
+          "id": "066a8619-27c0-4368-b4b8-baed41e450b7",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1644033821979,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "e45d9396-4127-4a67-a6fe-47a9972b3fab",
+          "appClassName": "Project Status Reporting",
+          "appURL": "/page/STATUS_REPORTING/",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-PSR",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "14726011-9a3a-4179-91cb-1c9e13a73831",
+              "appOwnerEmail": "Alfred.Urena@parthenon.ey.com"
+            }
+          ],
+          "id": "a43f3d95-2145-4cee-b890-bbad8e4b8f61",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "b8a50c24-7c83-4917-b0bc-87a92c49b42d",
+          "appClassName": "Project Management",
+          "appURL": "",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "key": "WRIKE-PMO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "14ec88b2-2d5e-4023-a0a3-0b38cd521356",
+              "appOwnerEmail": "Alfred.Urena@parthenon.ey.com"
+            }
+          ],
+          "id": "470edab5-9695-48c6-a9a0-a4be98821456",
+          "createdOn": 1606907512830,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "ed536b91-64b3-47e5-6fb2-a078245e5417",
+          "appClassName": "Logistics Edge",
+          "appURL": "/dashboard/network-sales",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-NO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "00568998-bfa7-48ac-bccb-6f955100e794",
+              "appOwnerEmail": "Edward.Tse@parthenon.ey.com"
+            }
+          ],
+          "id": "d6ecc438-f027-4e62-9f21-fc66f9a710e2",
+          "createdOn": 1613535794689,
+          "createdBy": "c0801247-de4b-49e6-9094-12d02f9e0a40",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "c0f0a2e5-d987-26ab-8ecb-a3a56e3b24b6",
+          "appClassName": "Process Maturity Assessment",
+          "appURL": "/dashboard/sc-assessment",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-PMA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "deedf5c4-bff1-4353-b7ec-3af82bca0449",
+              "appOwnerEmail": "Edward.Tse@parthenon.ey.com"
+            }
+          ],
+          "id": "099d23fb-d4e7-478a-b5ad-0e1b1eab8d6e",
+          "createdOn": 1613564172388,
+          "createdBy": "c0801247-de4b-49e6-9094-12d02f9e0a40",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "f0dcb919-10df-433f-96ba-d1dc7319e284",
+          "appClassName": "Measure Management",
+          "appURL": "/page/MEASURE_DASHBOARD/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-MM",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "f3b77797-9a7f-4155-88c0-985df32eed2b",
+          "createdOn": 1625191040748,
+          "createdBy": "4c8fccc0-1839-4546-b08c-ffb7aa68ac81",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appClassId": "ca522229-9a97-4c0e-91af-b6b489dcacb3",
+          "appClassName": "PMO",
+          "appURL": "/page/PMO_DASHBOARD/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-PMO",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "02da2d26-2a43-4e7e-8d8e-717ef78499f1",
+              "appOwnerEmail": "Alfred.Urena@parthenon.ey.com"
+            }
+          ],
+          "id": "86adb79b-653f-4924-a3c6-57ea18f22971",
+          "createdOn": 1635990931280,
+          "createdBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        }
+      ],
+      "appPlatformDetails": [
+        {
+          "appPlatformClassId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "name": "CFP",
+          "description": "CFP for consumer finance",
+          "siteURL": "https://eycapitaledge.ey.com/sandbox-sandbox/cfp",
+          "apiUrl": "https://eycapitaledge.ey.com/sandbox-sandbox/cfp/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1603989867603,
+          "provisioningEndedOn": 1603992322293,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "949b1df6-5b53-40f4-bed0-e7e7d073b904",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "name": "Capital Edge 4",
+          "description": "Capital Edge 4 for Fin",
+          "siteURL": "https://eycapitaledge.ey.com/sandbox-sandbox/ce4",
+          "apiUrl": "https://eycapitaledge.ey.com/sandbox-sandbox-ce4/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1603989867603,
+          "provisioningEndedOn": 1603991316903,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "ae29c2d4-671e-49cc-b952-42d9ca49f79f",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "name": "Transaction Periscope",
+          "description": "Transaction Periscope for sales",
+          "siteURL": "https://eycapitaledge.ey.com/sandbox-sandbox/tp",
+          "apiUrl": "https://eycapitaledge.ey.com/sandbox-sandbox/tp/api/v1",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1603989867603,
+          "provisioningEndedOn": 1603991941078,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "ca31310a-0220-4fea-bd60-3d4810fa714f",
+          "createdOn": 1603989403382,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "name": "Wrike",
+          "description": "Wrike for Prj mgmt",
+          "siteURL": "https://login.wrike.com/saml/login/account/3473705?idp=https://sts.windows.net/5b973f99-77df-4beb-b27d-aa0c70b8482c/",
+          "apiUrl": "https://app-eu.wrike.com/api/v4/",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1606907400808,
+          "provisioningEndedOn": 1606907700808,
+          "externalIds": [
+            {
+              "appPlatformClassKey": "WRIKE",
+              "id": "IEADKAJJI4R7PH7R"
+            }
+          ],
+          "isEmailEnabled": null,
+          "id": "fde785ad-ce7f-4d6c-8bbc-90820140a6aa",
+          "createdOn": 1606907512830,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1635990931602,
+          "modifiedBy": "c9561613-c7b1-4c60-9522-9957517578c2",
+          "deleted": null
+        }
+      ],
+      "demoURL": null,
+      "closeDate": null,
+      "mfaEnabled": false,
+      "projectFriendlyId": "sandbox-sandbox",
+      "isConfidential": false,
+      "deprovisionedStatusId": null,
+      "numberOfUsers": 0,
+      "createdByUserName": null,
+      "createdByUserEmail": null,
+      "projectCategoryId": "19f18cde-b213-4aa2-b29a-51484ec4c18b",
+      "projectCategoryName": "Training",
+      "expirationDate": null,
+      "iconId": "d191dc52-ac4d-4f50-83bf-a9c13c17f696",
+      "locationDetails": {
+        "locationId": "693b2b4f-3806-4648-94f5-557b0c144f99",
+        "locationName": "EMEIA",
+        "locationDescription": "(All apps in the Netherlands)",
+        "locationBaseURL": "https://eycapitaledge.ey.com",
+        "externalIds": [
+          {
+            "appPlatformClassKey": "WRIKE",
+            "id": "IEADKAJJ"
+          }
+        ],
+        "key": "EU"
+      },
+      "isDemoProject": true,
+      "defaultUserRoleId": "d85b4573-6ae8-487f-a87d-34f32d12a556",
+      "id": "c3071f2f-c191-4897-a8bf-2c98b0b52e07",
+      "createdOn": 1603989403382,
+      "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+      "modifiedOn": 1645223730760,
+      "modifiedBy": "37151297-1943-409c-b0ab-81a3b7a6bd8e",
+      "deleted": null
+    },
+    {
+      "name": "Baltimore",
+      "paceId": null,
+      "isDraft": false,
+      "clientName": "Demo",
+      "description": "This is a B&I demo project. #donotdelete\n* Do not add confidential/client data to this demo project, as it would be visible to other users with access to the demo.",
+      "sectorId": "a5fc9b6c-8a19-495c-b813-b5861744e991",
+      "sectorName": "Media & Entertainment",
+      "channelId": null,
+      "clientSizeId": "71e728e9-4316-4516-8c34-8cdc553ede35",
+      "regionId": "cac584ab-4569-425a-ba0c-fff022e37f73",
+      "regionName": "US",
+      "stepProgress": "3",
+      "projectTypeId": "3d95813c-6c79-4409-bbcf-5665b832dabe",
+      "projectStatus": {
+        "id": "86f39537-d4ec-485e-ae8f-070dc17ec1a4",
+        "projectStatusName": "Active"
+      },
+      "bundleClassId": "3d95813c-6c79-4409-bbcf-5665b832dabe",
+      "bundleName": null,
+      "bundleDescription": null,
+      "targetDetails": [
+        {
+          "appClassId": "b8a50c24-7c83-4917-b0bc-87a92c49b42d",
+          "appClassName": "Project Management",
+          "appURL": "",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "key": "WRIKE-PMO",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "d319854d-0fd5-469e-91dd-9a77738fced3",
+          "createdOn": 1602805943784,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "bb9c12a9-bbf4-4c87-a07b-63e9e9a4602c",
+          "appClassName": "Legal Entity Planning - ProjeX",
+          "appURL": "/entities",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-LEP",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "ef14f54f-1034-4f9c-8811-2b1eec6ff4cf",
+          "createdOn": 1602805943784,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "a5fe1ef0-24fd-4c5f-ae97-dadac09964cc",
+          "appClassName": "Site Optimization",
+          "appURL": "/dashboard/loc-baseline-sales",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SO",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "02ca6774-6bd7-4195-8969-f8e6fb7e237e",
+          "createdOn": 1602805943784,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "268efd2d-2051-4e63-a04d-709b4852f33d",
+          "appClassName": "Value Capture",
+          "appURL": "/page/VALUE_CAPTURE_OVERVIEW/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-VC",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "d3b6e387-02fe-44f9-a46c-d67f2eb25c37",
+          "createdOn": 1602805943784,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "69623df5-e928-4232-a515-e53157f43ce6",
+          "appClassName": "Interim Financial Reporting",
+          "appURL": "/ir",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-IR",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "a1001229-ab5a-404e-9f24-a4f0f84ce52f",
+              "appOwnerEmail": "badrul.alom@ey.com"
+            }
+          ],
+          "id": "86f1c359-e4de-4edd-b4c3-0d5da535115c",
+          "createdOn": 1607096662412,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "a290dac1-9d87-44e8-8a29-70719608ae68",
+          "appClassName": "Custom Analytics",
+          "appURL": "/analytics",
+          "isPublished": true,
+          "appCategoryId": "8f1c1c6f-8d2f-4a50-8d5e-f7e687569b2c",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "a0cd8e48-e896-43c7-933d-c0f2e8c588aa",
+              "appOwnerEmail": "Aasim.Shaik@ey.com"
+            }
+          ],
+          "id": "e1ef6658-12dc-49cd-bb58-d4bb3186edba",
+          "createdOn": 1618929451301,
+          "createdBy": "a5f6096a-833f-4282-9543-871e79ef3b07",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "991f9fae-8de2-4bf5-a70c-f25df9186b01",
+          "appClassName": "Sales & Margin Variance Analytics",
+          "appURL": "/sales/mva",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-MVA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "8b7f863c-9faf-4460-a225-22e12c12ddfc",
+              "appOwnerEmail": "Guillaume.Lepetitpas@ey.com"
+            }
+          ],
+          "id": "14e7ae60-cde5-466a-a3e3-f9484b76e782",
+          "createdOn": 1620089014857,
+          "createdBy": "a5f6096a-833f-4282-9543-871e79ef3b07",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "b191b2aa-5d9c-4086-9d5c-f019935ef58d",
+          "appClassName": "Credit and bad debt analytics",
+          "appURL": "/customer/creditAnalytics",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CBDA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "582f827c-2dd0-4c9d-9f5a-91fb895da649",
+              "appOwnerEmail": "Aasim.Shaik@ey.com"
+            }
+          ],
+          "id": "266cb032-42d9-429b-b060-078239945834",
+          "createdOn": 1620093664626,
+          "createdBy": "a5f6096a-833f-4282-9543-871e79ef3b07",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "00a430e1-2ae5-4dc1-8d86-ab6a30b3c667",
+          "appClassName": "Capital Allocation",
+          "appURL": "/capitalPro",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-CAS",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "70d01f1b-2abf-4f00-b8e5-c64498bb95a0",
+              "appOwnerEmail": "Teodor.S.Trenkov@ey.com"
+            }
+          ],
+          "id": "08a3e78d-8333-4368-b5bb-073ac129cfb2",
+          "createdOn": 1623270011794,
+          "createdBy": "a5f6096a-833f-4282-9543-871e79ef3b07",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "4bcad821-68d4-4781-a209-dfeda8a705fd",
+          "appClassName": "Acquisition & Investment Performance Analytics",
+          "appURL": "/investmentTracker",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-AIPA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "2b3d07b1-9d0a-4de7-bdae-83d6bebb729b",
+              "appOwnerEmail": "Teodor.S.Trenkov@ey.com"
+            }
+          ],
+          "id": "7f37d7ad-2726-4b8a-a6b0-37bee0ac9aed",
+          "createdOn": 1623270548866,
+          "createdBy": "e5fdad3b-86df-4d68-9fbd-d93436b755a5",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "f0dcb919-10df-433f-96ba-d1dc7319e284",
+          "appClassName": "Measure Management",
+          "appURL": "/page/MEASURE_DASHBOARD/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-MM",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "9ccf14cb-a141-4cfc-8103-daa198e45a5b",
+          "createdOn": 1625261413366,
+          "createdBy": "62affc67-a70b-4384-ba1b-6cc2059976ab",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "e45d9396-4127-4a67-a6fe-47a9972b3fab",
+          "appClassName": "Project Status Reporting",
+          "appURL": "/page/STATUS_REPORTING/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-PSR",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "56e9e21b-acdc-4da9-8df5-197ba015bb9b",
+              "appOwnerEmail": "Dhairyashil.NShinde@parthenon.ey.com"
+            }
+          ],
+          "id": "03560bdc-eefc-4e14-b987-092586429e6f",
+          "createdOn": 1629084712518,
+          "createdBy": "49c55eca-3e56-4fa5-93f3-643e87dccab7",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appClassId": "27ecdc02-1410-482d-97df-20ef2a6e272e",
+          "appClassName": "Operating Model",
+          "appURL": "/page/OPERATING_MODEL_GALLERY/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-OM",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "46f3c949-2ff0-404c-9217-5a88d0683b4e",
+              "appOwnerEmail": "FrancoisXavier.Charpentier@parthenon.ey.com"
+            }
+          ],
+          "id": "1d43e48d-7497-4c8d-b9f7-026e6ca62fd0",
+          "createdOn": 1629085845002,
+          "createdBy": "49c55eca-3e56-4fa5-93f3-643e87dccab7",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        }
+      ],
+      "appPlatformDetails": [
+        {
+          "appPlatformClassId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "name": "Wrike",
+          "description": "Wrike for Prj mgmt",
+          "siteURL": "https://login.wrike.com/saml/login/account/3473705?idp=https://sts.windows.net/5b973f99-77df-4beb-b27d-aa0c70b8482c/",
+          "apiUrl": "https://app-eu.wrike.com/api/v4/",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1602805729164,
+          "provisioningEndedOn": 1602806029164,
+          "externalIds": [
+            {
+              "appPlatformClassKey": "WRIKE",
+              "id": "IEADKAJJI4RIOHJC"
+            }
+          ],
+          "isEmailEnabled": null,
+          "id": "cce5bdcc-80a7-454e-8aba-295ebe84df99",
+          "createdOn": 1602805943784,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "name": "CFP",
+          "description": "CFP for consumer finance",
+          "siteURL": "https://eycapitaledge.ey.com/demo-baltimore/cfp",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-baltimore/cfp/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1602806342982,
+          "provisioningEndedOn": 1602808827300,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "d86b31e9-8432-44c1-9b72-e6df4ce9a94d",
+          "createdOn": 1602805943784,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "name": "Capital Edge 4",
+          "description": "Capital Edge 4 for Fin",
+          "siteURL": "https://eycapitaledge.ey.com/demo-baltimore/ce4",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-baltimore-ce4/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1602806342982,
+          "provisioningEndedOn": 1602807853927,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "3738d56c-01b0-4338-b020-f7736feab3b1",
+          "createdOn": 1602805943784,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "name": "Transaction Periscope",
+          "description": "Transaction Periscope for sales",
+          "siteURL": "https://eycapitaledge.ey.com/demo-baltimore/tp",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-baltimore/tp/api/v1",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1602806342982,
+          "provisioningEndedOn": 1602860404302,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "4a2ae76f-3286-4cdc-8a54-2e42248ead74",
+          "createdOn": 1602805943784,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1631136821446,
+          "modifiedBy": "b2c7384a-ffed-4253-a35d-fd2a2b6d66b2",
+          "deleted": null
+        }
+      ],
+      "demoURL": null,
+      "closeDate": null,
+      "mfaEnabled": false,
+      "projectFriendlyId": "demo-baltimore",
+      "isConfidential": false,
+      "deprovisionedStatusId": null,
+      "numberOfUsers": 0,
+      "createdByUserName": null,
+      "createdByUserEmail": null,
+      "projectCategoryId": "d564d543-fae0-42d3-b04c-83bff66dd7a9",
+      "projectCategoryName": "Standard demo",
+      "expirationDate": null,
+      "iconId": "5f116bdb-a68f-4922-a275-75c1cce23d78",
+      "locationDetails": {
+        "locationId": "693b2b4f-3806-4648-94f5-557b0c144f99",
+        "locationName": "EMEIA (Netherlands)",
+        "locationDescription": "The data will be hosted in EMEIA data center",
+        "locationBaseURL": "https://eycapitaledge.ey.com",
+        "externalIds": [
+          {
+            "appPlatformClassKey": "WRIKE",
+            "id": "IEADKAJJ"
+          }
+        ],
+        "key": "EU"
+      },
+      "isDemoProject": true,
+      "defaultUserRoleId": "d85b4573-6ae8-487f-a87d-34f32d12a556",
+      "id": "3ab2eef7-498e-4f5f-b3f7-3ec1112218bc",
+      "createdOn": 1602805943784,
+      "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+      "modifiedOn": 1645215920966,
+      "modifiedBy": "7694043b-4004-47cd-b04e-c1c113d1ab45",
+      "deleted": null
+    },
+    {
+      "name": "Sacramento",
+      "paceId": null,
+      "isDraft": false,
+      "clientName": "Demo",
+      "description": "This is a demo S&S project. #donotdelete\n* Do not add confidential/client data to this demo project, as it would be visible to other users with access to the demo.",
+      "sectorId": "0120b52d-5f10-48d3-99a0-93c4dd731982",
+      "sectorName": "Advanced Manufacturing",
+      "channelId": null,
+      "clientSizeId": "71e728e9-4316-4516-8c34-8cdc553ede35",
+      "regionId": "cac584ab-4569-425a-ba0c-fff022e37f73",
+      "regionName": "US",
+      "stepProgress": "3",
+      "projectTypeId": "4a83bb93-f940-4a89-8a02-0967ec61d168",
+      "projectStatus": {
+        "id": "86f39537-d4ec-485e-ae8f-070dc17ec1a4",
+        "projectStatusName": "Active"
+      },
+      "bundleClassId": "4a83bb93-f940-4a89-8a02-0967ec61d168",
+      "bundleName": null,
+      "bundleDescription": null,
+      "targetDetails": [
+        {
+          "appClassId": "b8a50c24-7c83-4917-b0bc-87a92c49b42d",
+          "appClassName": "Project Management",
+          "appURL": "",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "key": "WRIKE-PMO",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "d094b6ae-c776-49a8-868e-660580864f8a",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "b86ec1c6-0104-4a4c-814b-39ac05538383",
+          "appClassName": "Divestiture Reporting - CARVEx",
+          "appURL": "/ir",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-DR",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "db8cb7a7-b938-4194-a195-9e636dccb2ae",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "bb9c12a9-bbf4-4c87-a07b-63e9e9a4602c",
+          "appClassName": "Legal Entity Planning - ProjeX",
+          "appURL": "/entities",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-LEP",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "5f98b168-7a5f-407e-ba49-ab138c2ebb79",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "6b96cb8e-5335-4cf9-a238-238464df2cb6",
+          "appClassName": "Forecasting & Scenario Analysis",
+          "appURL": "/forecasting/autoForecast",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "key": "CFP-FSA",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "9a2ef2b7-9785-4593-a8a7-c1226693fb08",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "27ecdc02-1410-482d-97df-20ef2a6e272e",
+          "appClassName": "Operating Model",
+          "appURL": "/page/OPERATING_MODEL_GALLERY/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-OM",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "218f1337-0dd5-4092-bba1-17a9d0e1bdf4",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "62c8f0fa-7df5-4e0b-8476-8a5a932007da",
+          "appClassName": "CarveIT Asset Dispositioning",
+          "appURL": "/dashboard/contract-dashboard",
+          "isPublished": true,
+          "appCategoryId": "25dc6455-ed12-4245-bde3-97faa99c3676",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-CAD",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "ed58ab92-ba4e-4d47-8e6c-71c727e8ba37",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "2c13f9fd-17f0-4f52-93cd-93fc040798ab",
+          "appClassName": "Stand-Alone Company Costing",
+          "appURL": "/dashboard/cost-analysis",
+          "isPublished": true,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-SAC",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "3dbbf2fb-8cb6-4b0c-baec-ffec55e2a5b9",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "268efd2d-2051-4e63-a04d-709b4852f33d",
+          "appClassName": "Value Capture",
+          "appURL": "/page/VALUE_CAPTURE_OVERVIEW/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-VC",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "4858c718-06aa-4c55-8313-886c004ad53c",
+              "appOwnerEmail": "Chris.Novak@parthenon.ey.com"
+            }
+          ],
+          "id": "1d1f37a7-12e3-447d-957d-82c79273288c",
+          "createdOn": 1619620495329,
+          "createdBy": "4df1760e-91a4-4469-bf57-470bf88baffe",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "f0dcb919-10df-433f-96ba-d1dc7319e284",
+          "appClassName": "Measure Management",
+          "appURL": "/page/MEASURE_DASHBOARD/",
+          "isPublished": true,
+          "appCategoryId": "cbef27c1-2b23-453d-abef-0f04c3bfe2df",
+          "appPlatformId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "key": "CE4-MM",
+          "appDescription": null,
+          "appOwners": [],
+          "id": "8201cb57-12ab-4d23-970f-21a00c5bdb00",
+          "createdOn": 1625261012869,
+          "createdBy": "62affc67-a70b-4384-ba1b-6cc2059976ab",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appClassId": "3dfa7e57-626e-434e-87dd-e6704df436b6",
+          "appClassName": "Working Capital Analytics",
+          "appURL": "/dashboard/working-capital-overview",
+          "isPublished": false,
+          "appCategoryId": "d3af31a0-c369-42c7-9d17-8752c32b7d32",
+          "appPlatformId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "key": "TP-WCA",
+          "appDescription": null,
+          "appOwners": [
+            {
+              "id": "4d69326c-2cf3-441d-b403-5ad3a47c2b2c",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            },
+            {
+              "id": "77d58324-d8a9-4092-b03b-faf5dc0ba085",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            },
+            {
+              "id": "0209c86f-3b3d-4dcc-9b89-8340a2a42da5",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            },
+            {
+              "id": "42e879b0-778f-4b2c-805b-437c3ee5e196",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            },
+            {
+              "id": "07d12035-7721-4b00-9c23-9dc509f8f4d0",
+              "appOwnerEmail": "Kevin.Chen1@parthenon.ey.com"
+            }
+          ],
+          "id": "ce4f4995-d063-4e8e-a5a7-0769eccf7e85",
+          "createdOn": 1633083888554,
+          "createdBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        }
+      ],
+      "appPlatformDetails": [
+        {
+          "appPlatformClassId": "0d2cc26c-f61b-4dcc-81a2-726912e901c0",
+          "name": "Wrike",
+          "description": "Wrike for Prj mgmt",
+          "siteURL": "https://login.wrike.com/saml/login/account/3473705?idp=https://sts.windows.net/5b973f99-77df-4beb-b27d-aa0c70b8482c/",
+          "apiUrl": "https://app-eu.wrike.com/api/v4/",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1602614573837,
+          "provisioningEndedOn": 1602614873837,
+          "externalIds": [
+            {
+              "appPlatformClassKey": "WRIKE",
+              "id": "IEADKAJJI4RHJYEN"
+            }
+          ],
+          "isEmailEnabled": null,
+          "id": "031097dd-5fa2-4610-bbcf-7d9bbd6de645",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "36cb4d0d-d351-423e-8b1c-c69eb92303cb",
+          "name": "CFP",
+          "description": "CFP for consumer finance",
+          "siteURL": "https://eycapitaledge.ey.com/demo-sacramento/cfp",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-sacramento/cfp/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1602615212690,
+          "provisioningEndedOn": 1602617756930,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "d28c0d04-e5fb-4ee6-99b2-be3e0cb8450e",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "d0fc3cd1-0f58-4ceb-ae96-167148f0eeea",
+          "name": "Capital Edge 4",
+          "description": "Capital Edge 4 for Fin",
+          "siteURL": "https://eycapitaledge.ey.com/demo-sacramento/ce4",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-sacramento-ce4/api",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1602615212690,
+          "provisioningEndedOn": 1602616555920,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "dc5fe9a1-6e5b-487c-ad54-20a92827641d",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        },
+        {
+          "appPlatformClassId": "8614b736-a5c8-4a85-b679-521e9b2fd5e0",
+          "name": "Transaction Periscope",
+          "description": "Transaction Periscope for sales",
+          "siteURL": "https://eycapitaledge.ey.com/demo-sacramento/tp",
+          "apiUrl": "https://eycapitaledge.ey.com/demo-sacramento/tp/api/v1",
+          "statusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "initialProvisioningStatusId": "671012e6-21a2-4b9e-b73b-c4444931dbac",
+          "provisioningStartedOn": 1602615212690,
+          "provisioningEndedOn": 1602615983421,
+          "externalIds": [],
+          "isEmailEnabled": null,
+          "id": "18c1dc4b-3417-486e-aead-b0a3c5ba2a6d",
+          "createdOn": 1602614805230,
+          "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+          "modifiedOn": 1633083888879,
+          "modifiedBy": "4b45d601-4a11-4b8d-ad35-3ca52de81e24",
+          "deleted": null
+        }
+      ],
+      "demoURL": null,
+      "closeDate": null,
+      "mfaEnabled": false,
+      "projectFriendlyId": "demo-sacramento",
+      "isConfidential": false,
+      "deprovisionedStatusId": null,
+      "numberOfUsers": 0,
+      "createdByUserName": null,
+      "createdByUserEmail": null,
+      "projectCategoryId": "d564d543-fae0-42d3-b04c-83bff66dd7a9",
+      "projectCategoryName": "Standard demo",
+      "expirationDate": null,
+      "iconId": "5f116bdb-a68f-4922-a275-75c1cce23d78",
+      "locationDetails": {
+        "locationId": "693b2b4f-3806-4648-94f5-557b0c144f99",
+        "locationName": "EMEIA",
+        "locationDescription": "(All apps in the Netherlands)",
+        "locationBaseURL": "https://eycapitaledge.ey.com",
+        "externalIds": [
+          {
+            "appPlatformClassKey": "WRIKE",
+            "id": "IEADKAJJ"
+          }
+        ],
+        "key": "EU"
+      },
+      "isDemoProject": true,
+      "defaultUserRoleId": "d85b4573-6ae8-487f-a87d-34f32d12a556",
+      "id": "077d4344-7ed2-481d-98be-e40e1bf4df1c",
+      "createdOn": 1602614805230,
+      "createdBy": "d7b1ae71-3705-44fe-850e-519a3e11a63b",
+      "modifiedOn": 1645195372808,
+      "modifiedBy": "9cedfd8a-461c-424e-ac69-b3731f05d073",
+      "deleted": null
+    }
+  ],
+  "success": true
+}

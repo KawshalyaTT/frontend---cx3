@@ -1,0 +1,59 @@
+<h2 mat-dialog-title>Create Mapping</h2>
+<mat-dialog-content class="mat-typography">
+    <!-- <div *ngIf="activeIndexUpload == 1">
+        <ng-container>
+            <div class="files-list" *ngFor="let file of files; let i = index">
+                <p>{{ file }}</p>
+                <button class="delete-file" (click)="deleteAttachment(i)">
+                    <img src="./Recycle.png" />
+                </button>
+            </div>
+        </ng-container>
+        <div class="uploadfilecontainer" (click)="fileInput.click()" (onFileDropped)="uploadFile($event)">
+            <div>
+                <input hidden type="file" #fileInput (change)="uploadFile($event)" />
+            </div>
+        </div>
+    </div>
+    <div class="p-grid p-dir-col row fileuploadrow" *ngIf="activeIndexUpload == 2">
+        <div class="fileuploadrowdiv">
+            <div class="p-col">
+                <label class="recordsClass">
+                    * - Map the headers from the data-tape to the Index. </label>
+            </div>
+            <div class="p-col" class="example-container">
+                <div cdkDropList class="example-list indexDisable">
+                    <div class="divoneMapping">
+                        <h2 class="center sticky">Index</h2>
+                        <div class="example-box" *ngFor="let item of spItems" cdkDrag [cdkDragDisabled]="true">
+                            {{ item.displayValue }}
+                        </div>
+                    </div>
+                    <div class="divoneMapping">
+                        <h2 class="center sticky">Headers mapping</h2>
+                        <form [formGroup]="dropDownFormGroup">
+                            <div formArrayName="excelMappings">
+                                <p-dropdown class="example-box" id="item[i]" filter="true"
+                                    placeholder="Select excel column to map" [options]="excelItemOptions"
+                                    *ngFor="let item of t.controls; let i = index" [formControlName]="i"
+                                    optionLabel="displayValue">
+                                </p-dropdown>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div cdkDropList [cdkDropListData]="excelItems" class="example-list headerDisable">
+                    <h2 class="center sticky">Headers from datatape</h2>
+                    <div class="example-box" *ngFor="let item of excelItems" cdkDrag [cdkDragDisabled]="true">
+                        {{ item.displayValue }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+</mat-dialog-content>
+<mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+    <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Preview Mapping</button>
+</mat-dialog-actions>

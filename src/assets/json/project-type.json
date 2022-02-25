@@ -1,0 +1,29 @@
+{
+    "data": [
+      {
+        "id": "3d95813c-6c79-4409-bbcf-5665b832dabe",
+        "name": "Buy and Integrate",
+        "description": "Buy & Integrate focusses on M&A deals",
+        "key": "B"
+      },
+      {
+        "id": "4a83bb93-f940-4a89-8a02-0967ec61d168",
+        "name": "Sell and Separate",
+        "description": "Sell & Separate focusses on disinvestment",
+        "key": "S"
+      },
+      {
+        "id": "f22debbf-9a71-446c-8cec-6e773c2776ec",
+        "name": "Reshaping Results",
+        "description": "Reshaping Results focusses on transformation journey",
+        "key": "R"
+      },
+      {
+        "id": "5a1c59ca-36f7-40fb-8c37-ede55c02169c",
+        "name": "PE Value Creation",
+        "description": "Public Equity Value Creation focusses on value creation",
+        "key": "P"
+      }
+    ],
+    "success": true
+  }

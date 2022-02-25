@@ -1,0 +1,33 @@
+@import "../../../../assets/css/custom-css.scss";
+
+::ng-deep .mat-menu-panel {
+  background-color: $dropdown-bg-color;
+  box-shadow: $dropdown-box-shadow;
+  color: $dropdown-font-color;
+  border-radius: 1px !important;
+  width: 15rem !important;
+  .mat-menu-content {
+    padding: 0 !important;
+  }
+  .mat-list-item {
+    height: 40px !important;
+    .mat-list-item-content {
+      background: $dropdown-bg-color;
+      color: $dropdown-font-color;
+      font-weight: lighter;
+      min-height: 1rem !important;
+      font-size: $dropdown-font-size;
+      .mat-icon {
+        font-size: 18px;
+        line-height: 1.4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+      }
+    }
+    .mat-list-item-content:hover {
+      background-color: $btn-primary-hover-bg-color !important;
+    }
+  }
+}

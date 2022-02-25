@@ -1,0 +1,113 @@
+{
+    "data": [
+      {
+        "id": "0120b52d-5f10-48d3-99a0-93c4dd731982",
+        "name": "Advanced Manufacturing",
+        "description": "Advanced Manufacturing Sector",
+        "key": "ADMF"
+      },
+      {
+        "id": "fd126eff-b59a-4a17-905c-7fcf0e99fcf1",
+        "name": "Automotive & Transportation",
+        "description": "Automotive & Transportation Sector",
+        "key": "AUTO"
+      },
+      {
+        "id": "83d7936a-4ae9-4c61-9052-0965ff604a21",
+        "name": "Banking & Capital Markets",
+        "description": "Banking & Capital Markets Sector",
+        "key": "BNK"
+      },
+      {
+        "id": "a3c3a6c2-e7ac-4207-9ec5-1949b1479dcc",
+        "name": "Consumer Products & Retail",
+        "description": "Consumer Products & Retail Sector",
+        "key": "CPGR"
+      },
+      {
+        "id": "2f0c48a8-da08-4773-8c56-7cf7aeb0ed91",
+        "name": "Government & Public Sector",
+        "description": "Government & Public Sector",
+        "key": "GOV"
+      },
+      {
+        "id": "25936944-8502-44bc-adf3-763bb1ebf8ef",
+        "name": "Health",
+        "description": "Health Sector",
+        "key": "HLT"
+      },
+      {
+        "id": "3604a06b-e83a-4eba-8edf-28d6584ba24e",
+        "name": "Infrastructure",
+        "description": "Infrastructure Sector",
+        "key": "INFR"
+      },
+      {
+        "id": "bbeb0c26-892f-45bd-a060-cfa8c986cab3",
+        "name": "Insurance",
+        "description": "Insurance Sector",
+        "key": "INS"
+      },
+      {
+        "id": "e5681a01-00b7-455f-8fc7-fb649cf43431",
+        "name": "Life Science",
+        "description": "Life Science Sector",
+        "key": "LIFS"
+      },
+      {
+        "id": "a5fc9b6c-8a19-495c-b813-b5861744e991",
+        "name": "Media & Entertainment",
+        "description": "Media & Entertainment Sector",
+        "key": "MENT"
+      },
+      {
+        "id": "ecac1ae5-825b-442d-9def-1b87075b2313",
+        "name": "Mining & Minerals",
+        "description": "Mining & Minerals Sector",
+        "key": "MNM"
+      },
+      {
+        "id": "ad803d44-d7f8-409b-9b04-4323f3cf265f",
+        "name": "Oil & Gas",
+        "description": "Oil & Gas Sector",
+        "key": "ONG"
+      },
+      {
+        "id": "d8fb1114-1964-4c02-a83c-30625ffb3b16",
+        "name": "Power & Utilities",
+        "description": "Power & Utilities Sector",
+        "key": "POW"
+      },
+      {
+        "id": "2dcc5018-78cf-4ae3-a577-571ad27b9ecd",
+        "name": "Private Equity",
+        "description": "Private Equity Sector",
+        "key": "PVEQ"
+      },
+      {
+        "id": "0f70390e-2252-49cd-959c-142d458170eb",
+        "name": "Real Estate, Hospitality & Construction",
+        "description": "Real Estate, Hospitality & Construction Sector",
+        "key": "REAL"
+      },
+      {
+        "id": "15025242-bfe3-4ed3-8f88-c18d141fff8a",
+        "name": "Technology",
+        "description": "Technology Sector",
+        "key": "TECH"
+      },
+      {
+        "id": "ce494a5f-295d-496b-9be6-3b4b01d3ce66",
+        "name": "Telecommunications",
+        "description": "Telecommunications Sector",
+        "key": "TELC"
+      },
+      {
+        "id": "f2b721fb-b20e-49a6-af39-ed008cb121b6",
+        "name": "Wealth & Asset Management",
+        "description": "Wealth & Asset Management Sector",
+        "key": "WEL"
+      }
+    ],
+    "success": true
+  }

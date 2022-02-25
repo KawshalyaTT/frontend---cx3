@@ -1,0 +1,15 @@
+<mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened #sidenav>
+    <mat-list role="list">
+      <div *ngFor="let nav of sideNavItems">
+        <mat-list-item role="listitem" [routerLink]="[nav.path]"
+          [routerLinkActive]="['active-link']">
+          <mat-icon>{{nav.icon}}</mat-icon>{{nav.name}}
+        </mat-list-item>
+      </div>
+    </mat-list>
+  </mat-drawer>
+  <mat-drawer-content>
+    <router-outlet></router-outlet>
+  </mat-drawer-content>
+</mat-drawer-container>

@@ -1,0 +1,8 @@
+<div class="project-form-container">
+    <div class="project-form-details-header">
+        <h1>Create new project</h1>
+        <h5>Completed steps 0/{{projectFormList.length}}</h5>
+    </div>
+    <app-custom-stepper-form [formList]="projectFormList" [editableForm]="isFormEditable" [formData]="projectData">
+    </app-custom-stepper-form>
+</div>

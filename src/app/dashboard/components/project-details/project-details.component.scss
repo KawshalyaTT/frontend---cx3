@@ -1,0 +1,14 @@
+@import '../../../../assets/css/custom-css.scss';
+.project-details-content{
+    padding-bottom: 1em;
+    .mat-button{
+        margin: $btn-margin;
+    }
+}
+.target-container{
+    padding: 1em 0;
+}
+
+.mat-card{
+    padding: 16px;
+}

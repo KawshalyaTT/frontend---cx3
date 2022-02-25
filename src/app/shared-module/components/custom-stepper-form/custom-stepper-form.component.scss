@@ -1,0 +1,20 @@
+
+@import '../../../../assets/css/custom-css.scss';
+.mat-stepper-vertical, .mat-stepper-horizontal {
+    height: 100%;
+}
+
+::ng-deep .mat-horizontal-content-container {
+    overflow: hidden;
+    padding: 24px 24px 24px 24px !important;
+}
+
+.mat-button{
+    display: block;
+    margin: $btn-margin;
+}
+
+.stepper-btn-group{
+    display: flex;
+    justify-content: center;
+}

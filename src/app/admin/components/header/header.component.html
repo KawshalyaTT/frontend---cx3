@@ -1,0 +1,17 @@
+<mat-toolbar>
+  <div class="header-row-container">
+    <button mat-icon-button aria-label="Side menu icon for menu list">
+      <mat-icon><img src="../../../assets/images/logo.svg" class="logo" /></mat-icon>
+    </button>
+    <button mat-icon-button aria-label="Side menu icon for menu list" (click)="toggleSidenav()">
+      <mat-icon>menu</mat-icon>
+    </button>
+  </div>
+  <span [innerHtml]="title" class="header-name" aria-label="app name"></span>
+  <div class="header-row-container">
+    <button mat-icon-button aria-label="Person Icon for profile details">
+      <mat-icon>person</mat-icon>
+    </button>
+    <app-custom-menu [menuItems]="menuList" (getMenuData)="getMenuData($event)"></app-custom-menu>
+  </div>
+</mat-toolbar>

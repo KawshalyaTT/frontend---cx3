@@ -1,0 +1,29 @@
+{
+    "data": [
+      {
+        "id": "ca9118ae-a818-424d-a2a2-570b75e9ef5e",
+        "name": "<$100m revenue",
+        "description": "very small sized customer",
+        "key": "VSMALL"
+      },
+      {
+        "id": "71e728e9-4316-4516-8c34-8cdc553ede35",
+        "name": "$100m - $500m revenue",
+        "description": "small sized customer",
+        "key": "SMALL"
+      },
+      {
+        "id": "af124a7e-8de3-4319-959d-071bcfc4b549",
+        "name": "$500m - $1bn revenue",
+        "description": "mid sized customer",
+        "key": "MEDIUM"
+      },
+      {
+        "id": "7ba86b54-4854-4991-9346-396c58ee8934",
+        "name": "> $1bn revenue",
+        "description": "large sized customer",
+        "key": "LARGE"
+      }
+    ],
+    "success": true
+  }

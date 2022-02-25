@@ -1,0 +1,14 @@
+<button mat-button aria-label="Person Icon for profile details" #menuTrigger="matMenuTrigger"
+    [matMenuTriggerFor]="beforeMenu">
+    <span>Kawshalya</span>
+    <mat-icon *ngIf="menuTrigger.menuOpen">expand_more</mat-icon>
+    <mat-icon *ngIf="!menuTrigger.menuOpen">expand_less</mat-icon>
+</button>
+<mat-menu #beforeMenu="matMenu" xPosition="before" [overlapTrigger]="false">
+    <mat-list role="list" *ngFor="let menu of menuItems; let i = index;">
+        <mat-list-item role="listitem" (click)="sendMenuItemDetails(menu)">
+            <mat-icon>{{menu.icon}}</mat-icon>{{menu.name}}
+        </mat-list-item>
+        <mat-divider *ngIf="i < (menuItems.length-1)"></mat-divider>
+    </mat-list>
+</mat-menu>
